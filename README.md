@@ -8,7 +8,7 @@ Predicting whether a Mashable news article will be **Popular** or **Unpopular**
 ## Project overview
 
 - **Goal:** binary classification of article popularity from content/meta-data features
-  (no text of the article itself is used — only structural, keyword, sentiment, and
+  (no text of the article itself is used - only structural, keyword, sentiment, and
   timing features).
 - **Target engineering:** `shares` is median-split into `Popular` / `Unpopular`, then
   dropped to avoid leakage.
@@ -68,7 +68,7 @@ Predicting whether a Mashable news article will be **Popular** or **Unpopular**
 
 The **Q-Q plots** (`06_qq_plots_shares.png`) show that raw `shares` is heavily
 right-skewed and far from normal, while `log(1 + shares)` is much closer to a
-normal distribution — this is why a log scale is used for the content-length
+normal distribution - this is why a log scale is used for the content-length
 boxplot and is worth considering if `shares` is ever modeled as a continuous
 target instead of a binary class.
 
