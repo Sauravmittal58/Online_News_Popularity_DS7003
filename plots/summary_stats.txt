@@ -1,0 +1,41 @@
+Rows: 39644, Columns (after drop/engineering): 61
+
+Median shares (split threshold): 1400.0
+
+Class balance:
+Popularity
+Popular      21154
+Unpopular    18490
+
+
+Features with |correlation| > 0.05 vs Popularity (29 of 60):
+
+kw_avg_avg                       0.157787
+is_weekend                       0.140852
+data_channel_is_socmed           0.112044
+weekday_is_saturday              0.108938
+data_channel_is_tech             0.102832
+LDA_04                           0.094877
+kw_min_avg                       0.090708
+num_hrefs                        0.090229
+weekday_is_sunday                0.083874
+global_sentiment_polarity        0.073547
+num_keywords                     0.073085
+kw_max_avg                       0.070496
+global_subjectivity              0.068059
+LDA_00                           0.067253
+num_imgs                         0.067193
+self_reference_avg_sharess       0.065304
+media_score                      0.065262
+global_rate_positive_words       0.060917
+self_reference_max_shares        0.060666
+LDA_03                           0.058595
+content_title_ratio              0.056289
+title_sentiment_polarity         0.053474
+self_reference_min_shares        0.052911
+kw_min_min                       0.051257
+rate_negative_words             -0.071249
+LDA_01                          -0.078873
+data_channel_is_entertainment   -0.114156
+data_channel_is_world           -0.154195
+LDA_02                          -0.159896
