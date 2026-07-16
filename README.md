@@ -1,4 +1,4 @@
-# Online News Popularity — Classification Project
+# Online News Popularity - Classification Project
 
 Predicting whether a Mashable news article will be **Popular** or **Unpopular**
 (median split on `shares`) using the
